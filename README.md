@@ -6,3 +6,6 @@ Omniverse Isaac Gym provides an advanced learning platform designed for efficien
 
 # How to install Omniverse Isaac Gym?
 Please follow the instructions in the following link to install it. {https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_workstation.html#workstation-setup}
+
+# How to create a new RL Example (CartPole) in OmniIsaacGymEnvs
+Please follow the instructions in the following link: https://docs.omniverse.nvidia.com/isaacsim/latest/isaac_gym_tutorials/tutorial_gym_isaac_gym_new_oige_example.html
