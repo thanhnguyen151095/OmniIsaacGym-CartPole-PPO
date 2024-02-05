@@ -12,6 +12,7 @@ Please follow the instructions in the following link: https://docs.omniverse.nvi
 
 # Build a Deep RL Agent (Proximal Policy Optimization (PPO))
 * PPO_Buffer
+  
   The buffer includes the following tensors:
   - states: (buffer_size, num_envs, obs_dim)
   - actions: (buffer_size, num_envs, act_dim)
@@ -21,9 +22,9 @@ Please follow the instructions in the following link: https://docs.omniverse.nvi
   - values: (buffer_size, num_envs, 1)
   - returns: (buffer_size, num_envs, 1)
   - advantages: (buffer_size, num_envs, 1)
-* MPL NN
+* MPL NN:
   
 
-* PPO Algorithm
+* PPO Algorithm:
 
 
