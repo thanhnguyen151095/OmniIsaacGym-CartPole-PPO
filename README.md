@@ -102,11 +102,11 @@ python main.py num_envs=64
   
 |Total rewards/Steps|Total timesteps/Steps|
 |:---:|:---:|
-![](Figures/comparison/Totalrewards-Steps.png)| ![](Figures/comparison/Totaltimesteps-Steps.png)|
+![](Figures/comparison/Totalrewards-Steps.svg)| ![](Figures/comparison/Totaltimesteps-Steps.svg)|
 
 |Total rewards/Time|Total timesteps/Time|
 |:---:|:---:|
-![](Figures/comparison/Totalrewards-Time.png)| ![](Figures/comparison/Totaltimesteps-Time.png)|
+![](Figures/comparison/Totalrewards-Time.svg)| ![](Figures/comparison/Totaltimesteps-Time.svg)|
 
 
 # References:
