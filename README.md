@@ -9,7 +9,7 @@ Please follow the instructions in the following link to install it. {https://doc
 
 # How to create a new RL Example (CartPole) in OmniIsaacGymEnvs
 Please follow the instructions in the following link: https://docs.omniverse.nvidia.com/isaacsim/latest/isaac_gym_tutorials/tutorial_gym_isaac_gym_new_oige_example.html
-![Local Image](Figures/PPO.png)
+
 # Build a Deep RL Agent (Proximal Policy Optimization (PPO))
 * PPO_Buffer:
   
@@ -40,6 +40,9 @@ Please follow the instructions in the following link: https://docs.omniverse.nvi
 
 * PPO Algorithm:
   The PPO Algorithm is clearly presented in this paper (https://arxiv.org/abs/1707.06347).
+
+  ![Local Image](Figures/PPO.png)
+  
   - The parameters of the PPO algorithm are presented below:
     
     - cfg["rollouts"] = 16  # memory_size
