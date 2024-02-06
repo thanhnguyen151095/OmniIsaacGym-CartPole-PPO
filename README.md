@@ -98,6 +98,17 @@ python main.py num_envs = 64
 |:---:|:---:|
 ![](Figures/mymethod/Totalrewards-Time.png)| ![](Figures/mymethod/Totaltimesteps-Time.png)|
 
+- Compare results with other libraries:
+  
+|Total rewards/Steps|Total timesteps/Steps|
+|:---:|:---:|
+![](Figures/comparison/Totalrewards-Steps.png)| ![](Figures/comparison/Totaltimesteps-Steps.png)|
+
+|Total rewards/Time|Total timesteps/Time|
+|:---:|:---:|
+![](Figures/comparison/Totalrewards-Time.png)| ![](Figures/comparison/Totaltimesteps-Time.png)|
+
+
 # References:
 
   
