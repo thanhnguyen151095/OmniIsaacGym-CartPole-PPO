@@ -63,8 +63,16 @@ Please follow the instructions in the following link: https://docs.omniverse.nvi
     - cfg["value_loss_scale"] = 2.0
     - cfg["kl_threshold"] = 0
     - cfg["rewards_shaper"] = lambda rewards, timestep, timesteps: rewards * 0.1
-      
-  * Training:
+
+# Training:
+
+
+# Results:
+
+
+# References:
+
+  
     
 
 
