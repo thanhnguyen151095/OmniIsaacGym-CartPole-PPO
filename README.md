@@ -41,23 +41,23 @@ Please follow the instructions in the following link: https://docs.omniverse.nvi
 * PPO Algorithm:
   - The parameters of the PPO algorithm are presented below:
     
-    cfg["rollouts"] = 16  # memory_size
-    cfg["learning_epochs"] = 8
-    cfg["mini_batches"] = 1  # 16 * 512 / 8192
-    cfg["discount_factor"] = 0.99
-    cfg["lambda"] = 0.95
-    cfg["learning_rate"] = 3e-4
-    cfg["learning_rate_scheduler"] = AdaptiveLR(refer to rl_games)
-    cfg["learning_rate_scheduler_kwargs"] = {"kl_threshold": 0.008}
-    cfg["random_timesteps"] = 0
-    cfg["learning_starts"] = 0
-    cfg["grad_norm_clip"] = 1.0
-    cfg["ratio_clip"] = 0.2
-    cfg["value_clip"] = 0.2
-    cfg["clip_predicted_values"] = True
-    cfg["entropy_loss_scale"] = 0.0
-    cfg["value_loss_scale"] = 2.0
-    cfg["kl_threshold"] = 0
-    cfg["rewards_shaper"] = lambda rewards, timestep, timesteps: rewards * 0.1
+    - cfg["rollouts"] = 16  # memory_size
+    - cfg["learning_epochs"] = 8
+    - cfg["mini_batches"] = 1  # 16 * 512 / 8192
+    - cfg["discount_factor"] = 0.99
+    - cfg["lambda"] = 0.95
+    - cfg["learning_rate"] = 3e-4
+    - cfg["learning_rate_scheduler"] = AdaptiveLR(refer to rl_games)
+    - cfg["learning_rate_scheduler_kwargs"] = {"kl_threshold": 0.008}
+    - cfg["random_timesteps"] = 0
+    - cfg["learning_starts"] = 0
+    - cfg["grad_norm_clip"] = 1.0
+    - cfg["ratio_clip"] = 0.2
+    - cfg["value_clip"] = 0.2
+    - cfg["clip_predicted_values"] = True
+    - cfg["entropy_loss_scale"] = 0.0
+    - cfg["value_loss_scale"] = 2.0
+    - cfg["kl_threshold"] = 0
+    - cfg["rewards_shaper"] = lambda rewards, timestep, timesteps: rewards * 0.1
 
 
