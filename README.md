@@ -65,8 +65,20 @@ Please follow the instructions in the following link: https://docs.omniverse.nvi
     - cfg["rewards_shaper"] = lambda rewards, timestep, timesteps: rewards * 0.1
 
 # Training:
+
+- Graphic mode:
+```python
+python train.py num_envs = 512
+```
+
+- Headless mode:
 ```python
 python train.py headless=True num_envs = 512
+```
+
+- To display the results on the Tensorboard:
+```python
+tensorboard --logdir=./runs/torch/Cartpole/
 ```
 
 # Results:
