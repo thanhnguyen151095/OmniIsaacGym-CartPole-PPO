@@ -82,7 +82,11 @@ tensorboard --logdir=./runs/torch/Cartpole/
 ```
 
 # Results:
-
+|_|_|
+|:---:|:---:|
+![](Figures/Mymethod/Totalrewards-Steps.png)| ![](Figures/Mymethod/Totaltimesteps-Steps.png)|
+|:---:|:---:|
+![](Figures/Mymethod/Totalrewards-Time.png)| ![](Figures/Mymethod/Totaltimesteps-Time.png)|
 
 # References:
 
