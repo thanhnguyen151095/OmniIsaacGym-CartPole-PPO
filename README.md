@@ -65,7 +65,7 @@ Please follow the instructions in the following link: https://docs.omniverse.nvi
     - cfg["rewards_shaper"] = lambda rewards, timestep, timesteps: rewards * 0.1
 
 # Training:
-
+[![Click to watch the video](Figures/train.mp4)]
 - Graphic mode:
 ```python
 python main.py num_envs=512
