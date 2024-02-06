@@ -11,7 +11,7 @@ Please follow the instructions in the following link to install it. {https://doc
 Please follow the instructions in the following link: https://docs.omniverse.nvidia.com/isaacsim/latest/isaac_gym_tutorials/tutorial_gym_isaac_gym_new_oige_example.html
 
 # Build a Deep RL Agent (Proximal Policy Optimization (PPO))
-* PPO_Buffer
+* PPO_Buffer:
   
   The buffer includes the following tensors:
   - states: (buffer_size, num_envs, obs_dim)
