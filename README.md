@@ -89,6 +89,7 @@ python main.py num_envs = 64
 
 # Results:
 - My results:
+  
 |Total rewards/Steps|Total timesteps/Steps|
 |:---:|:---:|
 ![](Figures/mymethod/Totalrewards-Steps.png)| ![](Figures/mymethod/Totaltimesteps-Steps.png)|
