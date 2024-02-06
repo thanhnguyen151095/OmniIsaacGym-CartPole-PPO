@@ -81,6 +81,12 @@ python train.py headless=True num_envs = 512
 tensorboard --logdir=./runs/torch/Cartpole/
 ```
 
+# Testing:
+- Graphic mode:
+```python
+python train.py num_envs = 64
+```
+
 # Results:
 - My results:
 |_|_|
