@@ -92,11 +92,11 @@ python main.py num_envs=64
   
 |Total rewards/Steps|Total timesteps/Steps|
 |:---:|:---:|
-![](Figures/mymethod/Totalrewards-Steps.png)| ![](Figures/mymethod/Totaltimesteps-Steps.png)|
+![](Figures/mymethod/Totalrewards-Steps.svg)| ![](Figures/mymethod/Totaltimesteps-Steps.svg)|
 
 |Total rewards/Time|Total timesteps/Time|
 |:---:|:---:|
-![](Figures/mymethod/Totalrewards-Time.png)| ![](Figures/mymethod/Totaltimesteps-Time.png)|
+![](Figures/mymethod/Totalrewards-Time.svg)| ![](Figures/mymethod/Totaltimesteps-Time.svg)|
 
 - Compare results with other libraries:
   
