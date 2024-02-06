@@ -68,12 +68,12 @@ Please follow the instructions in the following link: https://docs.omniverse.nvi
 
 - Graphic mode:
 ```python
-python main.py num_envs = 512
+python main.py num_envs=512
 ```
 
 - Headless mode:
 ```python
-python main.py headless=True num_envs = 512
+python main.py headless=True num_envs=512
 ```
 
 - To display the results on the Tensorboard:
@@ -84,7 +84,7 @@ tensorboard --logdir=./runs/torch/Cartpole/
 # Testing:
 - Graphic mode:
 ```python
-python main.py num_envs = 64
+python main.py num_envs=64
 ```
 
 # Results:
