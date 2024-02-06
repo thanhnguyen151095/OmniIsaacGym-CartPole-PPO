@@ -39,5 +39,25 @@ Please follow the instructions in the following link: https://docs.omniverse.nvi
   The policy network is composed of 4 layers: 2 linear layers with 32 neurons each, and 2 activation layers with ELU activation function. The mean_layer and log_std_parameter are used to calculate the mean and standard deviation of the output actions. The value network is composed of a single linear layer with 32 neurons, which is shared with the policy network, and a final output layer with 1 neuron.
 
 * PPO Algorithm:
+  - The parameters of the PPO algorithm are presented below:
+    
+    cfg["rollouts"] = 16  # memory_size
+    cfg["learning_epochs"] = 8
+    cfg["mini_batches"] = 1  # 16 * 512 / 8192
+    cfg["discount_factor"] = 0.99
+    cfg["lambda"] = 0.95
+    cfg["learning_rate"] = 3e-4
+    cfg["learning_rate_scheduler"] = AdaptiveLR(refer to rl_games)
+    cfg["learning_rate_scheduler_kwargs"] = {"kl_threshold": 0.008}
+    cfg["random_timesteps"] = 0
+    cfg["learning_starts"] = 0
+    cfg["grad_norm_clip"] = 1.0
+    cfg["ratio_clip"] = 0.2
+    cfg["value_clip"] = 0.2
+    cfg["clip_predicted_values"] = True
+    cfg["entropy_loss_scale"] = 0.0
+    cfg["value_loss_scale"] = 2.0
+    cfg["kl_threshold"] = 0
+    cfg["rewards_shaper"] = lambda rewards, timestep, timesteps: rewards * 0.1
 
 
