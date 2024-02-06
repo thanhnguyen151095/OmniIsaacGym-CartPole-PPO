@@ -23,7 +23,20 @@ Please follow the instructions in the following link: https://docs.omniverse.nvi
   - returns: (buffer_size, num_envs, 1)
   - advantages: (buffer_size, num_envs, 1)
 * MPL NN:
-  
+  The structure of neural networks (NN) is defined as follows:
+
+    Policy Network:
+      net = nn.Sequential(nn.Linear(num_observations, 32),
+                          nn.ELU(),
+                          nn.Linear(32, 32),
+                          nn.ELU())
+      mean_layer = nn.Linear(32, num_actions)
+      log_std_parameter = nn.Parameter(torch.zeros(num_actions))
+
+    Value Network:
+      value_layer = nn.Linear(32, 1) (using the shared net with policy network)
+
+The policy network is composed of 4 layers: 2 linear layers with 32 neurons each, and 2 activation layers with ELU activation function. The mean_layer and log_std_parameter are used to calculate the mean and standard deviation of the output actions. The value network is composed of a single linear layer with 32 neurons, which is shared with the policy network, and a final output layer with 1 neuron.
 
 * PPO Algorithm:
 
