@@ -113,9 +113,10 @@ python main.py num_envs=64
 
 
 # References:
-- skrl: https://github.com/Toni-SM/skrl (https://arxiv.org/abs/2202.03825)
+
 - PPO: https://arxiv.org/abs/1707.06347
 - NVIDIDA Omniverse IsaacGym: https://sites.google.com/view/isaacgym-nvidia
+-  skrl: https://github.com/Toni-SM/skrl (https://arxiv.org/abs/2202.03825)
 
   
     
