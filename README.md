@@ -88,6 +88,7 @@ tensorboard --logdir=./runs/torch/Cartpole/
 ```python
 python main.py num_envs=64
 ```
+![](Figures/test.gif)
 
 # Results:
 - My results:
